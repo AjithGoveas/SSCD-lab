@@ -1,0 +1,187 @@
+# Generic OS
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+Icon?
+*.lnk
+
+# Temporary and backup files
+*~
+*.swp
+*.swo
+*.tmp
+*.temp
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Archives and packages
+*.zip
+*.tar.gz
+*.tar
+*.rar
+*.7z
+
+# Node.js
+node_modules/
+dist/
+build/
+.out/
+.env
+.env.*.local
+.npm/
+.nvmrc
+.parcel-cache/
+.cache/
+.next/
+public/build/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+venv/
+.env
+.venv
+env/
+ENV/
+python-env/
+
+# Java / JVM
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.class
+target/
+build/
+.gradle/
+out/
+*.iml
+*.ipr
+*.iws
+
+# Maven
+.settings/
+dependency-reduced-pom.xml
+release.properties
+
+# Gradle
+.gradle/
+build/
+gradle-app.setting
+
+# Rust
+/target/
+**/target/
+
+# Go
+bin/
+pkg/
+vendor/
+
+# C/C++
+*.o
+*.obj
+*.so
+*.exe
+*.dll
+*.out
+*.dSYM/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+
+# IDEs and editors
+.vscode/
+*.code-workspace
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.tmproj
+*.project
+*.classpath
+/.history/
+
+# JetBrains
+.idea/
+*.iml
+*.iws
+.idea_modules/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Eclipse/NetBeans
+.metadata/
+*.bak
+nbproject/private/
+build/
+dist/
+
+# LaTeX
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+*.bbl
+*.blg
+*.synctex.gz
+
+# Containers / VMs
+.vagrant/
+.vagrant.d/
+*.box
+*.qcow2
+
+# Secrets and keys
+*.pem
+*.key
+*.p12
+*.jks
+.env
+.env.local
+.env.*.local
+
+# Buildsystem and CI artifacts
+coverage/
+coverage-final.json
+reports/
+.jenkins/
+ci-artifacts/
+
+# Media (uncomment if you want to keep large media out of git)
+# *.mp4
+# *.mov
+# *.avi
+# *.mkv
+# *.mp3
+# *.wav
+
+# Optional: ignore OS-specific trash/recycle folders
+$RECYCLE.BIN/
+
+# End: local overrides (keep this file tracked)
+!.gitignore
